@@ -1,2 +1,2 @@
 # Algorithms
-My collection of algorithms.
+My implementation of algorithms.
