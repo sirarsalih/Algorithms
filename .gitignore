@@ -1,5 +1,7 @@
+.svn
 Debug
 Release
 *.opensdf
 *.sdf
 *.suo
+*.user

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4ab766e8-c348-4f79-a760-ca3b7834c99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{31a6b3e8-753a-4f5e-baec-0f3191b9be2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CrossOver.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fitness.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mutation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Selection.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TravelingSalespersonProblem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\CrossOver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Fitness.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\GUI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Mutation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\Selection.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\TravelingSalespersonProblem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
