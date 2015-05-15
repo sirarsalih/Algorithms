@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{ffb35fc6-8d55-4781-8952-081813c4f772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{0c4adfb0-44a5-4176-9e1a-d17fb543cc0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FileInput.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenFileWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TabuSearch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeElapsed.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\FileInput.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\OpenFileWindow.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\TabuSearch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\TimeElapsed.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

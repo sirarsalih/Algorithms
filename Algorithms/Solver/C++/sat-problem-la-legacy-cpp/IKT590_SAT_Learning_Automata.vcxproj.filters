@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{133dd15e-97f3-4dc6-a316-a2d8fc584753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3a4029b6-a77f-4594-97bd-3f832aa88baf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FileInput.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LearningAutomata.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenFileWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeElapsed.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\FileInput.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\LearningAutomata.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\OpenFileWindow.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\TimeElapsed.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
